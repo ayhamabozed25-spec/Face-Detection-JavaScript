@@ -1,5 +1,5 @@
 const video = document.getElementById('video')
-import * as faceapi from 'face-api.js';
+
 
 Promise.all([
   await faceapi.nets.tinyFaceDetector.loadFromUri("./facemodels/");
